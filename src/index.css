@@ -5,9 +5,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+ 
+}
+.card-body{
+background-color:#c6f9c2;
+}
+.form-control{
+  background-color: #cfcfff;
+}
+.form-label{
+  font-weight: 700;
+}
+#root{
+  background-color: #2f5c76;
+  height: 650px;
+  background-image: " ";
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+i{
+  cursor: pointer;
+
+}
+#trash{
+  color: red;
+}
+#trash:hover {
+  color: rgb(238, 107, 107);
+}
+
+#pen{
+  color: blue;
+}
+#pen:hover {
+  color: rgb(113, 113, 226);
+}
+
+#about:hover{
+  cursor: pointer;
+  
+
+}
+
+
