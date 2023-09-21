@@ -1,5 +1,5 @@
 body {
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -9,6 +9,7 @@ body {
   
  
 }
+
 .card-body{
 background-color:#c6f9c2;
 }
@@ -19,11 +20,15 @@ background-color:#c6f9c2;
   font-weight: 700;
 }
 #root{
-  background-color: #2f5c76;
+  /* background-color: #2f5c76; */
   height: 100vh;
-  background-image: "";
-
+  background-image: url("https://images.wallpaperscraft.com/image/single/notebook_herbarium_plant_145235_1600x900.jpg");
+  /* opacity: 0.7; */
+  background-repeat: no-repeat;
 }
+ 
+
+ 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -50,8 +55,14 @@ i{
 
 #about:hover{
   cursor: pointer;
-  
+}
 
+
+
+@media (max-width:480px){
+  #root{
+    background-image: url("https://images.wallpaperscraft.com/image/single/notebook_herbarium_plant_145235_480x854.jpg");
+  }
 }
 
 
