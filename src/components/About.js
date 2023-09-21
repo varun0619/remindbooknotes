@@ -19,8 +19,8 @@ const About = () => {
         </ul>
       </h5>
 
-      <div style={{backgroundColor:"red", width:"13%",color:"wheat" ,textAlign:"center"}} className="container">
-       <h4> 02-08-2023 </h4> 
+      <div style={{backgroundColor:"black", width:"30%",color:"wheat" ,textAlign:"center", }} className="container">
+       <h4> *** </h4> 
       </div>
     </div>
 

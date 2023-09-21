@@ -1,4 +1,5 @@
 body {
+  height: 100vh;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -19,8 +20,9 @@ background-color:#c6f9c2;
 }
 #root{
   background-color: #2f5c76;
-  height: 650px;
-  background-image: " ";
+  height: 100vh;
+  background-image: "";
+
 }
 
 code {
